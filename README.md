@@ -1,4 +1,8 @@
 # 1. Dockerの基礎
+```
+# DockerfileからDockerイメージを作成する
+docker image build
+```
 # 2. Dockerコンテナのデプロイ
 # 3. 実用的なコンテナの構築とデプロイ
 # 4. Swarmによる実践的なアプリケーション構築
