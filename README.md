@@ -1,5 +1,14 @@
 # 1. Dockerの基礎
 # 2. Dockerコンテナのデプロイ
+```mermaid
+stateDiagram-v2
+df:Dockerfile
+di:Docker image
+dc:Docker container
+df-->di:docker image build
+di-->dc:docker container run
+```
+
 ```shell
 # DockerfileからDockerイメージをビルドする
 docker image build
